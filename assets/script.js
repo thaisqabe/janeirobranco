@@ -93,7 +93,7 @@ nextQuestionButton.addEventListener("click", () => {
     quizContainer.innerHTML = `<h4>Você terminou o quiz! Pontuação final: ${score}/${quizData.length}</h4>
     <p> Para mais informações sobre o Janeiro Branco, acesse os sites:</p>
     <p><a target="_blank" href="https://www.gov.br/cetene/pt-br/assuntos/noticias/janeiro-branco-uma-reflexao-sobre-a-importancia-da-saude-mental">Site do Governo Federal</a></p>
-    <p><a target="_blank" href="https://janeirobranco.org.br/">Site da Camapnha</a></p>`;
+    <p><a target="_blank" href="https://janeirobranco.org.br/">Site da Campanha</a></p>`;
     explanationContainer.style.display = "none";
     nextQuestionButton.style.display = "none";
   }
